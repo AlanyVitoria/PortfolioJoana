@@ -61,8 +61,11 @@ body {
 
 .apresentacao__links__botoes {
     /* background-color: #22D4FD; */
+    display: flex;
     width: 378px;
     text-align: center;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     border-radius: 8px;
     font-size: 24px;
@@ -73,4 +76,10 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+}
+
+.apresentacao__links__botoes:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: #272727;
 }
