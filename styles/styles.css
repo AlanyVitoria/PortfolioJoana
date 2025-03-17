@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-primaria: #BE5985;
+    --cor-secundaria: #FFEDFA;
+    --cor-terciaria: #FFB8E0;
+    --cor-hover: #EC7FA9;
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat";
@@ -17,7 +17,6 @@
 }
 
 body {
-    /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -89,7 +88,6 @@ body {
 }
 
 .apresentacao__links__botoes {
-    /* background-color: #22D4FD; */
     display: flex;
     width: 378px;
     text-align: center;
